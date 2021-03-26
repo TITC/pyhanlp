@@ -4,10 +4,10 @@
 # 《自然语言处理入门》8.6 自定义领域命名实体识别
 # 配套书籍：http://nlp.hankcs.com/book.php
 # 讨论答疑：https://bbs.hankcs.com/
-from tests.book.ch05.perceptron_cws import CWSTrainer
-from tests.book.ch07.demo_hmm_pos import AbstractLexicalAnalyzer, PerceptronSegmenter
-from tests.book.ch07.demo_perceptron_pos import PerceptronPOSTagger
-from tests.book.ch08.demo_sp_ner import NERTrainer, os, PerceptronNERecognizer
+from tesstcode.book.ch05.perceptron_cws import CWSTrainer
+from tesstcode.book.ch07.demo_hmm_pos import AbstractLexicalAnalyzer, PerceptronSegmenter
+from tesstcode.book.ch07.demo_perceptron_pos import PerceptronPOSTagger
+from tesstcode.book.ch08.demo_sp_ner import NERTrainer, os, PerceptronNERecognizer
 from tests.test_utility import ensure_data
 
 PLANE_ROOT = ensure_data("plane-re", "http://file.hankcs.com/corpus/plane-re.zip")

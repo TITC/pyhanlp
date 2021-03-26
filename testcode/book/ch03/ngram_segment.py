@@ -7,8 +7,8 @@
 from jpype import JString
 
 from pyhanlp import *
-from tests.book.ch03.demo_corpus_loader import my_cws_corpus
-from tests.book.ch03.msr import msr_model
+from tesstcode.book.ch03.demo_corpus_loader import my_cws_corpus
+from tesstcode.book.ch03.msr import msr_model
 from tests.test_utility import test_data_path
 
 NatureDictionaryMaker = SafeJClass('com.hankcs.hanlp.corpus.dictionary.NatureDictionaryMaker')

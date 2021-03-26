@@ -6,8 +6,8 @@
 # 讨论答疑：https://bbs.hankcs.com/
 
 from pyhanlp import *
-from tests.book.ch07.demo_hmm_pos import AbstractLexicalAnalyzer, PerceptronSegmenter
-from tests.book.ch07.pku import PKU199801_TRAIN, POS_MODEL
+from tesstcode.book.ch07.demo_hmm_pos import AbstractLexicalAnalyzer, PerceptronSegmenter
+from tesstcode.book.ch07.pku import PKU199801_TRAIN, POS_MODEL
 
 POSTrainer = JClass('com.hankcs.hanlp.model.perceptron.POSTrainer')
 PerceptronPOSTagger = JClass('com.hankcs.hanlp.model.perceptron.PerceptronPOSTagger')

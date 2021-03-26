@@ -10,9 +10,9 @@ import numpy as np
 
 __doc__ = '试验语料库规模对准确率的影响'
 
-from tests.book.ch03.eval_bigram_cws import CWSEvaluator
-from tests.book.ch03.msr import msr_train, msr_model, msr_gold, msr_dict, msr_output, msr_test
-from tests.book.ch05.perceptron_cws import CWSTrainer, PerceptronLexicalAnalyzer
+from tesstcode.book.ch03.eval_bigram_cws import CWSEvaluator
+from tesstcode.book.ch03.msr import msr_train, msr_model, msr_gold, msr_dict, msr_output, msr_test
+from tesstcode.book.ch05.perceptron_cws import CWSTrainer, PerceptronLexicalAnalyzer
 import matplotlib.pyplot as plt
 
 plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签

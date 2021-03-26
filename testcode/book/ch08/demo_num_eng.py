@@ -6,7 +6,7 @@
 # 讨论答疑：https://bbs.hankcs.com/
 from pyhanlp import *
 
-from tests.book.ch03.ngram_segment import ViterbiSegment
+from tesstcode.book.ch03.ngram_segment import ViterbiSegment
 
 CharType = JClass('com.hankcs.hanlp.dictionary.other.CharType')
 

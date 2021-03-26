@@ -6,7 +6,7 @@
 # 讨论答疑：https://bbs.hankcs.com/
 
 from pyhanlp import *
-from tests.book.ch03.msr import msr_train
+from tesstcode.book.ch03.msr import msr_train
 from tests.test_utility import test_data_path
 
 IOUtil = JClass('com.hankcs.hanlp.corpus.io.IOUtil')

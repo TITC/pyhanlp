@@ -5,8 +5,8 @@
 # 配套书籍：http://nlp.hankcs.com/book.php
 # 讨论答疑：https://bbs.hankcs.com/
 from pyhanlp import *
-from tests.book.ch07 import pku
-from tests.book.ch08.demo_hmm_ner import test
+from tesstcode.book.ch07 import pku
+from tesstcode.book.ch08.demo_hmm_ner import test
 
 NERTrainer = JClass('com.hankcs.hanlp.model.perceptron.NERTrainer')
 CRFNERecognizer = JClass('com.hankcs.hanlp.model.crf.CRFNERecognizer')

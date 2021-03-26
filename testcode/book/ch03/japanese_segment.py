@@ -6,7 +6,7 @@
 # 讨论答疑：https://bbs.hankcs.com/
 import os
 
-from tests.book.ch03.ngram_segment import train_bigram, load_bigram
+from tesstcode.book.ch03.ngram_segment import train_bigram, load_bigram
 from tests.test_utility import ensure_data
 
 jp_corpus = ensure_data('jpcorpus',

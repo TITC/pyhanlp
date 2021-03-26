@@ -4,8 +4,8 @@
 # 《自然语言处理入门》7.4.2 标注语料
 # 配套书籍：http://nlp.hankcs.com/book.php
 # 讨论答疑：https://bbs.hankcs.com/
-from tests.book.ch07.demo_hmm_pos import AbstractLexicalAnalyzer, PerceptronSegmenter
-from tests.book.ch07.demo_perceptron_pos import train_perceptron_pos
+from tesstcode.book.ch07.demo_hmm_pos import AbstractLexicalAnalyzer, PerceptronSegmenter
+from tesstcode.book.ch07.demo_perceptron_pos import train_perceptron_pos
 from tests.test_utility import ensure_data
 
 ZHUXIAN = ensure_data("zhuxian", "http://file.hankcs.com/corpus/zhuxian.zip") + "/train.txt"

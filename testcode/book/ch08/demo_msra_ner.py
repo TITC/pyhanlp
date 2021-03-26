@@ -5,10 +5,10 @@
 # 配套书籍：http://nlp.hankcs.com/book.php
 # 讨论答疑：https://bbs.hankcs.com/
 from pyhanlp import *
-from tests.book.ch07.demo_perceptron_pos import POSTrainer
-from tests.book.ch08.demo_hmm_ner import PerceptronSegmenter, PerceptronPOSTagger
-from tests.book.ch08.demo_sp_ner import PerceptronNERecognizer, NERTrainer
-from tests.book.ch08.msra_ner import MSRA_NER_TRAIN
+from tesstcode.book.ch07.demo_perceptron_pos import POSTrainer
+from tesstcode.book.ch08.demo_hmm_ner import PerceptronSegmenter, PerceptronPOSTagger
+from tesstcode.book.ch08.demo_sp_ner import PerceptronNERecognizer, NERTrainer
+from tesstcode.book.ch08.msra_ner import MSRA_NER_TRAIN
 
 
 def train_ner(corpus):

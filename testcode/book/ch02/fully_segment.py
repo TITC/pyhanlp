@@ -4,7 +4,7 @@
 # 《自然语言处理入门》2.3.1 完全切分
 # 配套书籍：http://nlp.hankcs.com/book.php
 # 讨论答疑：https://bbs.hankcs.com/
-from tests.book.ch02.utility import load_dictionary
+from tesstcode.book.ch02.utility import load_dictionary
 
 
 def fully_segment(text, dic):

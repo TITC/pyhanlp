@@ -5,7 +5,7 @@
 # 配套书籍：http://nlp.hankcs.com/book.php
 # 讨论答疑：https://bbs.hankcs.com/
 from pyhanlp import PerceptronLexicalAnalyzer, HanLP, CustomDictionary
-from tests.book.ch03.msr import msr_model
+from tesstcode.book.ch03.msr import msr_model
 
 HanLP.Config.ShowTermNature = False
 segment = PerceptronLexicalAnalyzer(msr_model).enableCustomDictionary(False)

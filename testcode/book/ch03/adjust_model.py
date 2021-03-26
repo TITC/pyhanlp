@@ -5,8 +5,8 @@
 # 配套书籍：http://nlp.hankcs.com/book.php
 # 讨论答疑：https://bbs.hankcs.com/
 from pyhanlp import HanLP
-from tests.book.ch03.msr import msr_model
-from tests.book.ch03.ngram_segment import load_bigram, CoreDictionary
+from tesstcode.book.ch03.msr import msr_model
+from tesstcode.book.ch03.ngram_segment import load_bigram, CoreDictionary
 
 segment = load_bigram(model_path=msr_model, verbose=False, ret_viterbi=False)
 assert CoreDictionary.contains("管道")
