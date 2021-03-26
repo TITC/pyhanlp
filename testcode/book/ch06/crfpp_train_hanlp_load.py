@@ -7,7 +7,7 @@
 from pyhanlp import *
 from pyhanlp.static import HANLP_JAR_PATH
 from tesstcode.book.ch03.demo_corpus_loader import my_cws_corpus
-from testcode.test_utility import test_data_path
+from tests.test_utility import test_data_path
 
 CRFSegmenter = JClass('com.hankcs.hanlp.model.crf.CRFSegmenter')
 

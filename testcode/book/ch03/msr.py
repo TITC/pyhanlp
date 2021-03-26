@@ -6,7 +6,7 @@
 # 讨论答疑：https://bbs.hankcs.com/
 import os
 
-from testcode.test_utility import ensure_data, test_data_path
+from tests.test_utility import ensure_data, test_data_path
 
 sighan05 = ensure_data('icwb2-data', 'http://sighan.cs.uchicago.edu/bakeoff2005/data/icwb2-data.zip')
 msr_dict = os.path.join(sighan05, 'gold', 'msr_training_words.utf8')

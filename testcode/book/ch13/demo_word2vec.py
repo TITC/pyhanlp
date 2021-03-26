@@ -7,7 +7,7 @@
 
 from pyhanlp import *
 from tesstcode.book.ch03.msr import msr_train
-from testcode.test_utility import test_data_path
+from tests.test_utility import test_data_path
 
 IOUtil = JClass('com.hankcs.hanlp.corpus.io.IOUtil')
 DocVectorModel = JClass('com.hankcs.hanlp.mining.word2vec.DocVectorModel')

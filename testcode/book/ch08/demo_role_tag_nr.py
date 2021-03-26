@@ -7,7 +7,7 @@
 from pyhanlp import *
 from tesstcode.book.ch03.ngram_segment import DijkstraSegment
 from tesstcode.book.ch07 import pku
-from testcode.test_utility import test_data_path
+from tests.test_utility import test_data_path
 
 EasyDictionary = JClass('com.hankcs.hanlp.corpus.dictionary.EasyDictionary')
 NRDictionaryMaker = JClass('com.hankcs.hanlp.corpus.dictionary.NRDictionaryMaker')

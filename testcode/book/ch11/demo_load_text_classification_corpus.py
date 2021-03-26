@@ -5,7 +5,7 @@
 # 配套书籍：http://nlp.hankcs.com/book.php
 # 讨论答疑：https://bbs.hankcs.com/
 from pyhanlp import *
-from testcode.demos.demo_text_classification import sogou_corpus_path
+from tests.demos.demo_text_classification import sogou_corpus_path
 
 AbstractDataSet = JClass('com.hankcs.hanlp.classification.corpus.AbstractDataSet')
 Document = JClass('com.hankcs.hanlp.classification.corpus.Document')

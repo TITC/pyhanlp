@@ -9,7 +9,7 @@ from jpype import JString
 from pyhanlp import *
 from tesstcode.book.ch03.demo_corpus_loader import my_cws_corpus
 from tesstcode.book.ch03.msr import msr_model
-from testcode.test_utility import test_data_path
+from tests.test_utility import test_data_path
 
 NatureDictionaryMaker = SafeJClass('com.hankcs.hanlp.corpus.dictionary.NatureDictionaryMaker')
 CorpusLoader = SafeJClass('com.hankcs.hanlp.corpus.document.CorpusLoader')
