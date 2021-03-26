@@ -45,11 +45,11 @@ class Trie(Node):
             else:
                 state = state._add_child(char, value, True)
 
-
 if __name__ == '__main__':
     trie = Trie()
     # 增
-    trie['自然'] = 'nature'
+    trie['自然'] = 'nature'#一开始''，然后存入 自 ，value为Node，不可覆写。然后到 然 ，value为nature，可覆写
+    #_add_child 由于 自 两个字已经在字典树中，所以不添加，由于也不可覆写，所以不作处理。而 然 由于可覆写，所以值为value，但由于setitem中传入的是none，所以还是none，而人不在字典树中，所以创建一个
     trie['自然人'] = 'human'
     trie['自然语言'] = 'language'
     trie['自语'] = 'talk	to oneself'
