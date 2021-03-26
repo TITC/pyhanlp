@@ -6,9 +6,9 @@
 # 讨论答疑：https://bbs.hankcs.com/
 
 from pyhanlp import *
-from tesstcode.book.ch03 import msr
-from tesstcode.book.ch03.eval_bigram_cws import CWSEvaluator
-from tesstcode.book.ch06.crfpp_train_hanlp_load import CRF_MODEL_PATH, CRF_MODEL_TXT_PATH
+from tests.book.ch03 import msr
+from tests.book.ch03.eval_bigram_cws import CWSEvaluator
+from tests.book.ch06.crfpp_train_hanlp_load import CRF_MODEL_PATH, CRF_MODEL_TXT_PATH
 
 CRFSegmenter = JClass('com.hankcs.hanlp.model.crf.CRFSegmenter')
 CRFLexicalAnalyzer = JClass('com.hankcs.hanlp.model.crf.CRFLexicalAnalyzer')

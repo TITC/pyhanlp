@@ -6,7 +6,7 @@
 # 讨论答疑：https://bbs.hankcs.com/
 
 from pyhanlp import *
-from tesstcode.book.ch03.msr import msr_train, msr_model, msr_test, msr_gold, msr_output, msr_dict
+from tests.book.ch03.msr import msr_train, msr_model, msr_test, msr_gold, msr_output, msr_dict
 
 CWSTrainer = JClass('com.hankcs.hanlp.model.perceptron.CWSTrainer')
 PerceptronLexicalAnalyzer = JClass('com.hankcs.hanlp.model.perceptron.PerceptronLexicalAnalyzer')

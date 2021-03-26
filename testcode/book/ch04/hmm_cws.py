@@ -5,8 +5,8 @@
 # 配套书籍：http://nlp.hankcs.com/book.php
 # 讨论答疑：https://bbs.hankcs.com/
 from pyhanlp import *
-from tesstcode.book.ch03.eval_bigram_cws import CWSEvaluator
-from tesstcode.book.ch03.msr import msr_dict, msr_train, msr_model, msr_test, msr_output, msr_gold
+from tests.book.ch03.eval_bigram_cws import CWSEvaluator
+from tests.book.ch03.msr import msr_dict, msr_train, msr_model, msr_test, msr_output, msr_gold
 
 FirstOrderHiddenMarkovModel = JClass('com.hankcs.hanlp.model.hmm.FirstOrderHiddenMarkovModel')
 SecondOrderHiddenMarkovModel = JClass('com.hankcs.hanlp.model.hmm.SecondOrderHiddenMarkovModel')

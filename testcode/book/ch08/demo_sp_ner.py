@@ -5,9 +5,9 @@
 # 配套书籍：http://nlp.hankcs.com/book.php
 # 讨论答疑：https://bbs.hankcs.com/
 from pyhanlp import *
-from tesstcode.book.ch07 import pku
-from tesstcode.book.ch08.demo_hmm_ner import test, PerceptronSegmenter, PerceptronPOSTagger
-from tesstcode.book.ch08.demo_role_tag_nr import Sentence
+from tests.book.ch07 import pku
+from tests.book.ch08.demo_hmm_ner import test, PerceptronSegmenter, PerceptronPOSTagger
+from tests.book.ch08.demo_role_tag_nr import Sentence
 
 NERTrainer = JClass('com.hankcs.hanlp.model.perceptron.NERTrainer')
 PerceptronNERecognizer = JClass('com.hankcs.hanlp.model.perceptron.PerceptronNERecognizer')

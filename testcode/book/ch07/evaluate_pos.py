@@ -5,10 +5,10 @@
 # 配套书籍：http://nlp.hankcs.com/book.php
 # 讨论答疑：https://bbs.hankcs.com/
 from pyhanlp import *
-from tesstcode.book.ch07.demo_crf_pos import train_crf_pos
-from tesstcode.book.ch07.demo_hmm_pos import train_hmm_pos, FirstOrderHiddenMarkovModel, SecondOrderHiddenMarkovModel
-from tesstcode.book.ch07.demo_perceptron_pos import train_perceptron_pos
-from tesstcode.book.ch07.pku import PKU199801_TRAIN, PKU199801_TEST
+from tests.book.ch07.demo_crf_pos import train_crf_pos
+from tests.book.ch07.demo_hmm_pos import train_hmm_pos, FirstOrderHiddenMarkovModel, SecondOrderHiddenMarkovModel
+from tests.book.ch07.demo_perceptron_pos import train_perceptron_pos
+from tests.book.ch07.pku import PKU199801_TRAIN, PKU199801_TEST
 
 PosTagUtil = JClass('com.hankcs.hanlp.dependency.nnparser.util.PosTagUtil')
 

@@ -4,9 +4,9 @@
 # 《自然语言处理入门》2.3.4 双向最长匹配
 # 配套书籍：http://nlp.hankcs.com/book.php
 # 讨论答疑：https://bbs.hankcs.com/
-from tesstcode.book.ch02.backward_segment import backward_segment
-from tesstcode.book.ch02.forward_segment import forward_segment
-from tesstcode.book.ch02.utility import load_dictionary
+from tests.book.ch02.backward_segment import backward_segment
+from tests.book.ch02.forward_segment import forward_segment
+from tests.book.ch02.utility import load_dictionary
 
 
 def count_single_char(word_list: list):  # 统计单字成词的个数

@@ -4,7 +4,7 @@
 # 《自然语言处理入门》2.3.2 正向最长匹配
 # 配套书籍：http://nlp.hankcs.com/book.php
 # 讨论答疑：https://bbs.hankcs.com/
-from tesstcode.book.ch02.utility import load_dictionary
+from tests.book.ch02.utility import load_dictionary
 
 
 def forward_segment(text, dic):

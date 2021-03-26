@@ -9,9 +9,9 @@ import os
 import matplotlib.pyplot as plt
 from jpype import JClass
 
-from tesstcode.book.ch03.eval_bigram_cws import CWSEvaluator
-from tesstcode.book.ch03.msr import msr_train, msr_model, msr_gold, msr_dict, msr_output, msr_test
-from tesstcode.book.ch05.perceptron_cws import CWSTrainer, PerceptronLexicalAnalyzer
+from tests.book.ch03.eval_bigram_cws import CWSEvaluator
+from tests.book.ch03.msr import msr_train, msr_model, msr_gold, msr_dict, msr_output, msr_test
+from tests.book.ch05.perceptron_cws import CWSTrainer, PerceptronLexicalAnalyzer
 
 plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
 plt.rcParams['axes.unicode_minus'] = False  # 用来正常显示负号

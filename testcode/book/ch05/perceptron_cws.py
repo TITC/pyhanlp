@@ -5,8 +5,8 @@
 # 配套书籍：http://nlp.hankcs.com/book.php
 # 讨论答疑：https://bbs.hankcs.com/
 from pyhanlp import *
-from tesstcode.book.ch03.eval_bigram_cws import CWSEvaluator
-from tesstcode.book.ch03.msr import msr_train, msr_model, msr_dict, msr_gold, msr_output, msr_test
+from tests.book.ch03.eval_bigram_cws import CWSEvaluator
+from tests.book.ch03.msr import msr_train, msr_model, msr_dict, msr_gold, msr_output, msr_test
 
 CWSTrainer = JClass('com.hankcs.hanlp.model.perceptron.CWSTrainer')
 

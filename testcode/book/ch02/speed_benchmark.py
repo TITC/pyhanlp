@@ -6,10 +6,10 @@
 # 讨论答疑：https://bbs.hankcs.com/
 import time
 
-from tesstcode.book.ch02.backward_segment import backward_segment
-from tesstcode.book.ch02.bidirectional_segment import bidirectional_segment
-from tesstcode.book.ch02.forward_segment import forward_segment
-from tesstcode.book.ch02.utility import load_dictionary
+from tests.book.ch02.backward_segment import backward_segment
+from tests.book.ch02.bidirectional_segment import bidirectional_segment
+from tests.book.ch02.forward_segment import forward_segment
+from tests.book.ch02.utility import load_dictionary
 
 
 def evaluate_speed(segment, text, dic):

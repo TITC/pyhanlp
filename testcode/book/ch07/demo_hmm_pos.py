@@ -6,7 +6,7 @@
 # 讨论答疑：https://bbs.hankcs.com/
 
 from  pyhanlp import *
-from tesstcode.book.ch07.pku import PKU199801_TRAIN
+from tests.book.ch07.pku import PKU199801_TRAIN
 
 HMMPOSTagger = JClass('com.hankcs.hanlp.model.hmm.HMMPOSTagger')
 AbstractLexicalAnalyzer = JClass('com.hankcs.hanlp.tokenizer.lexical.AbstractLexicalAnalyzer')

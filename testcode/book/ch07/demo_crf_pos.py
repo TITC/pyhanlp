@@ -6,8 +6,8 @@
 # 讨论答疑：https://bbs.hankcs.com/
 
 from pyhanlp import *
-from tesstcode.book.ch07.demo_hmm_pos import AbstractLexicalAnalyzer, PerceptronSegmenter
-from tesstcode.book.ch07.pku import POS_MODEL, PKU199801_TRAIN
+from tests.book.ch07.demo_hmm_pos import AbstractLexicalAnalyzer, PerceptronSegmenter
+from tests.book.ch07.pku import POS_MODEL, PKU199801_TRAIN
 
 CRFPOSTagger = JClass('com.hankcs.hanlp.model.crf.CRFPOSTagger')
 

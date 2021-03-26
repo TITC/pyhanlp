@@ -5,7 +5,7 @@
 # 配套书籍：http://nlp.hankcs.com/book.php
 # 讨论答疑：https://bbs.hankcs.com/
 from pyhanlp import *
-from tesstcode.book.ch07 import pku
+from tests.book.ch07 import pku
 
 HMMNERecognizer = JClass('com.hankcs.hanlp.model.hmm.HMMNERecognizer')
 AbstractLexicalAnalyzer = JClass('com.hankcs.hanlp.tokenizer.lexical.AbstractLexicalAnalyzer')

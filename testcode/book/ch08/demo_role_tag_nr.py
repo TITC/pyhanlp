@@ -5,8 +5,8 @@
 # 配套书籍：http://nlp.hankcs.com/book.php
 # 讨论答疑：https://bbs.hankcs.com/
 from pyhanlp import *
-from tesstcode.book.ch03.ngram_segment import DijkstraSegment
-from tesstcode.book.ch07 import pku
+from tests.book.ch03.ngram_segment import DijkstraSegment
+from tests.book.ch07 import pku
 from tests.test_utility import test_data_path
 
 EasyDictionary = JClass('com.hankcs.hanlp.corpus.dictionary.EasyDictionary')
