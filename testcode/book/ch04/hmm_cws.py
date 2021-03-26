@@ -4,6 +4,8 @@
 # 《自然语言处理入门》4.6 隐马尔可夫模型应用于中文分词
 # 配套书籍：http://nlp.hankcs.com/book.php
 # 讨论答疑：https://bbs.hankcs.com/
+import sys,os# environment, adjust the priority
+sys.path.insert(0,os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
 from pyhanlp import *
 from tests.book.ch03.eval_bigram_cws import CWSEvaluator
 from tests.book.ch03.msr import msr_dict, msr_train, msr_model, msr_test, msr_output, msr_gold

@@ -4,8 +4,11 @@
 # 《自然语言处理入门》2.3.5 速度评测
 # 配套书籍：http://nlp.hankcs.com/book.php
 # 讨论答疑：https://bbs.hankcs.com/
+import sys,os# environment, adjust the priority
+sys.path.insert(0,os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
 import time
-
+import sys,os# environment, adjust the priority
+sys.path.insert(0,os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
 from tests.book.ch02.backward_segment import backward_segment
 from tests.book.ch02.bidirectional_segment import bidirectional_segment
 from tests.book.ch02.forward_segment import forward_segment

@@ -4,6 +4,8 @@
 # 《自然语言处理入门》7.4.2 标注语料
 # 配套书籍：http://nlp.hankcs.com/book.php
 # 讨论答疑：https://bbs.hankcs.com/
+import sys,os# environment, adjust the priority
+sys.path.insert(0,os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
 from tests.book.ch07.demo_hmm_pos import AbstractLexicalAnalyzer, PerceptronSegmenter
 from tests.book.ch07.demo_perceptron_pos import train_perceptron_pos
 from tests.test_utility import ensure_data

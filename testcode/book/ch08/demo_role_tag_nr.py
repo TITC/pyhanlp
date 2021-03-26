@@ -4,6 +4,8 @@
 # 《自然语言处理入门》8.4.1 基于角色标注的中国人名识别
 # 配套书籍：http://nlp.hankcs.com/book.php
 # 讨论答疑：https://bbs.hankcs.com/
+import sys,os# environment, adjust the priority
+sys.path.insert(0,os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))))
 from pyhanlp import *
 from tests.book.ch03.ngram_segment import DijkstraSegment
 from tests.book.ch07 import pku
