@@ -8,7 +8,7 @@ from tesstcode.book.ch05.perceptron_cws import CWSTrainer
 from tesstcode.book.ch07.demo_hmm_pos import AbstractLexicalAnalyzer, PerceptronSegmenter
 from tesstcode.book.ch07.demo_perceptron_pos import PerceptronPOSTagger
 from tesstcode.book.ch08.demo_sp_ner import NERTrainer, os, PerceptronNERecognizer
-from tests.test_utility import ensure_data
+from testcode.test_utility import ensure_data
 
 PLANE_ROOT = ensure_data("plane-re", "http://file.hankcs.com/corpus/plane-re.zip")
 PLANE_CORPUS = os.path.join(PLANE_ROOT, 'train.txt')

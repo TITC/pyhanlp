@@ -7,7 +7,7 @@
 from pyhanlp.static import STATIC_ROOT, download
 import os
 
-from tests.demos.demo_text_classification import sogou_corpus_path
+from testcode.demos.demo_text_classification import sogou_corpus_path
 
 
 def install_jar(name, url):

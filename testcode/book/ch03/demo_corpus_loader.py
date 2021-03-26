@@ -5,7 +5,7 @@
 # 配套书籍：http://nlp.hankcs.com/book.php
 # 讨论答疑：https://bbs.hankcs.com/
 from pyhanlp import *
-from tests.test_utility import test_data_path
+from testcode.test_utility import test_data_path
 
 CorpusLoader = SafeJClass('com.hankcs.hanlp.corpus.document.CorpusLoader')
 

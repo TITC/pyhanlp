@@ -3,7 +3,7 @@
 # Date: 2018-04-28 10:07
 
 from pyhanlp import *
-from tests.test_utility import ensure_data
+from testcode.test_utility import ensure_data
 
 WordVectorModel = JClass('com.hankcs.hanlp.mining.word2vec.WordVectorModel')
 DocVectorModel = JClass('com.hankcs.hanlp.mining.word2vec.DocVectorModel')
